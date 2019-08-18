@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01819d9a926449298f56ddde540baba, type: 3}
+  m_Name: JacketOfSmarts
+  m_EditorClassIdentifier: 
+  itemName: Jacket Of Smarts
+  icon: {fileID: 21300000, guid: 768ba1a12833e4e6e826bdc1e4cdfe64, type: 3}
+  canStack: 0
+  numberHeld: 0
+  worth: 50
+  prefab: {fileID: 8116779045634282583, guid: 1b840f50e8d4548418c1279aeea195e1, type: 3}
+  equipSlot: 1
+  parts:
+  - part: 1
+    image: {fileID: 1179927752916463508, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  - part: 2
+    image: {fileID: 7464846923444062239, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  - part: 3
+    image: {fileID: -26798155025700668, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  - part: 4
+    image: {fileID: 7270734831719049279, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  - part: 5
+    image: {fileID: -26798155025700668, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  - part: 6
+    image: {fileID: 7270734831719049279, guid: 5a3a3e103dc134301b10488d46de0e7a, type: 3}
+  armorModifier: 8
+  damageModifier: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01819d9a926449298f56ddde540baba, type: 3}
+  m_Name: PantsOfNature
+  m_EditorClassIdentifier: 
+  itemName: Pants Of Nature
+  icon: {fileID: 21300000, guid: 46310b0b1ff534343a5f2b64f97a0e86, type: 3}
+  canStack: 0
+  numberHeld: 1
+  worth: 45
+  prefab: {fileID: 6766589981301055472, guid: 467cdbf50cde64328be25cf200310135, type: 3}
+  equipSlot: 2
+  parts:
+  - part: 8
+    image: {fileID: -7572433419202837348, guid: 2a119bfdf06e44b3996820ee2e41216a,
+      type: 3}
+  - part: 9
+    image: {fileID: -2293820547079024595, guid: 2a119bfdf06e44b3996820ee2e41216a,
+      type: 3}
+  - part: 10
+    image: {fileID: -3924147186198499968, guid: 2a119bfdf06e44b3996820ee2e41216a,
+      type: 3}
+  - part: 11
+    image: {fileID: -4700027306568091616, guid: 2a119bfdf06e44b3996820ee2e41216a,
+      type: 3}
+  - part: 7
+    image: {fileID: -352463701216354860, guid: 2a119bfdf06e44b3996820ee2e41216a, type: 3}
+  armorModifier: 0
+  damageModifier: 13

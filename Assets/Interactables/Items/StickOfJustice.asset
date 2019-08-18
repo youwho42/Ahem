@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01819d9a926449298f56ddde540baba, type: 3}
+  m_Name: StickOfJustice
+  m_EditorClassIdentifier: 
+  itemName: Axe Of Justice
+  icon: {fileID: -898528966145526828, guid: 78650f94ab29445c8b91092975442287, type: 3}
+  canStack: 0
+  numberHeld: 1
+  worth: 12
+  prefab: {fileID: 8600309494193423574, guid: 42d1fc2a9140a4205b380f6cb365b938, type: 3}
+  equipSlot: 4
+  parts:
+  - part: 0
+    image: {fileID: -898528966145526828, guid: 78650f94ab29445c8b91092975442287, type: 3}
+  armorModifier: 0
+  damageModifier: 5

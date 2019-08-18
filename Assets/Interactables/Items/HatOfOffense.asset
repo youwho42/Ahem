@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01819d9a926449298f56ddde540baba, type: 3}
+  m_Name: HatOfOffense
+  m_EditorClassIdentifier: 
+  itemName: Hat Of Offense
+  icon: {fileID: 7860782684740208102, guid: 78650f94ab29445c8b91092975442287, type: 3}
+  canStack: 0
+  numberHeld: 5
+  worth: 15
+  prefab: {fileID: 7683033760606683723, guid: 81236806b86ac4f3e977d2d942c5f301, type: 3}
+  equipSlot: 0
+  parts:
+  - part: 0
+    image: {fileID: 7860782684740208102, guid: 78650f94ab29445c8b91092975442287, type: 3}
+  armorModifier: 0
+  damageModifier: 4
