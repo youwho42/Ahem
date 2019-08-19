@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleBehavior : MonoBehaviour, IBehaviorState
+public class FleeBehavior : MonoBehaviour, IBehaviorState
 {
 
     DetectPlayer detectPlayer;
@@ -15,13 +15,12 @@ public class IdleBehavior : MonoBehaviour, IBehaviorState
 
     public void RunBehavior()
     {
-        Debug.Log("Idle Behaviour");
+        Debug.Log("Flee Behaviour");
     }
 
     public bool CheckBehaviorStatus()
     {
-        
-        return !detectPlayer.CheckForPlayer();
+        return detectPlayer.CheckForPlayer();
     }
 
 }

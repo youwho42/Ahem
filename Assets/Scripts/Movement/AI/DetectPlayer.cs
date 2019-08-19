@@ -6,19 +6,13 @@ public class DetectPlayer : MonoBehaviour
 {
 
     public LayerMask playerLayer;
-    Animator anim;
 
-    private void Start()
+    public float detectDistance = .3f;
+    
+    public bool CheckForPlayer()
     {
-        anim = GetComponent<Animator>();
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, .3f, playerLayer);
-        if (hit)
-        {
-            anim.SetTrigger("Run");
-        }
+        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, .3f, playerLayer);
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, detectDistance, playerLayer);
+        return hit;
     }
 }

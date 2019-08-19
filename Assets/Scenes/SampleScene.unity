@@ -463,8 +463,13 @@ GameObject:
   - component: {fileID: 369495406}
   - component: {fileID: 369495405}
   - component: {fileID: 369495409}
-  - component: {fileID: 369495408}
   - component: {fileID: 369495404}
+  - component: {fileID: 369495412}
+  - component: {fileID: 369495411}
+  - component: {fileID: 369495410}
+  - component: {fileID: 369495408}
+  - component: {fileID: 369495414}
+  - component: {fileID: 369495413}
   m_Layer: 0
   m_Name: Square (5)
   m_TagString: Untagged
@@ -581,12 +586,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 369495403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 917904dbcdc62417e8cccc1f1a4242dc, type: 3}
+  m_Script: {fileID: 11500000, guid: db70c3569b6b54175afcc3c2ff4bc09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!95 &369495409
 Animator:
   serializedVersion: 3
@@ -606,6 +608,74 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &369495410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369495403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b757d73dfd96547c9b993fd21f8b35af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &369495411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369495403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0d2cb1b36d1405781b25cfbb7275ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &369495412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369495403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917904dbcdc62417e8cccc1f1a4242dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectDistance: 0.3
+--- !u!114 &369495413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369495403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a27e1e81bf584c31b51e874a838d8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  detectDistance: 3
+--- !u!114 &369495414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369495403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec46c0c3353324ae1b0414e42fafc309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &445902245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,7 +2478,7 @@ GameObject:
   - component: {fileID: 2034242542}
   - component: {fileID: 2034242541}
   - component: {fileID: 2034242540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Circle
   m_TagString: Food
   m_Icon: {fileID: 0}
